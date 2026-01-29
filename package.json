@@ -1,0 +1,28 @@
+{
+  "name": "@boostd/boost",
+  "version": "0.0.1",
+  "description": "Placeholder CLI for boost",
+  "bin": {
+    "boost": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && node dist/index.js up"
+  },
+  "keywords": [
+    "boost",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3"
+  }
+}
