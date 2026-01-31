@@ -1,9 +1,13 @@
 # @boostd/boost
 
+![Tests](https://github.com/boostd/boost/actions/workflows/tests.yml/badge.svg)
+
 `@boostd/boost` is a small placeholder CLI published ahead of the full Boost toolchain.
 
-Right now it does one simple thing:  
-it boots, runs, and **reports “ok.”**
+Right now it does two small things:
+
+-   `boost up` boots, runs, and **reports “ok.”**
+-   `boost haiku` prints a randomly generated observability haiku.
 
 ## Installation
 
@@ -15,6 +19,8 @@ npm install -g @boostd/boost
 
 -   `boost up`  
     Starts the CLI and reports ok.
+-   `boost haiku`  
+    Generates and prints an original haiku.
 
 ## Why this exists
 

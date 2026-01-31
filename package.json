@@ -16,7 +16,9 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "test": "npm run build && node dist/index.js up"
+    "test": "npm run build && npm run test:cli && npm run test:haiku",
+    "test:cli": "node dist/index.js up",
+    "test:haiku": "jest"
   },
   "keywords": [
     "boost",
@@ -26,6 +28,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^25.1.0",
+    "jest": "^30.2.0",
     "typescript": "^5.9.3"
   }
 }
