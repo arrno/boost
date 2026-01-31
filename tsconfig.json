@@ -14,7 +14,7 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
 
-    "types": ["node"],
+    "types": ["node", "jest"],
     "lib": ["ES2019"]
   },
   "include": ["src/**/*"]

@@ -1,4 +1,4 @@
-const { HaikuMaker } = require("../dist/haiku");
+import { HaikuMaker } from "../src/haiku";
 
 describe("HaikuMaker", () => {
     it("creates a three line haiku", () => {
