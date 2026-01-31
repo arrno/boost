@@ -21,6 +21,8 @@ npm install -g @boostd/boost
     Starts the CLI and reports ok.
 -   `boost haiku`  
     Generates and prints an original haiku.
+-   `boost --version`  
+    Displays the currently installed CLI version. (`-v` also works.)
 
 ## Why this exists
 
