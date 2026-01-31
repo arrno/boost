@@ -40,3 +40,11 @@ npm install          # install dependencies
 npm run build        # emit compiled files into dist/
 npm run test         # build + sanity-check the CLI output
 ```
+
+## Releasing
+
+```bash
+npm run release:patch   # test -> npm version patch -> npm publish
+npm run release:minor
+npm run release:major
+```
