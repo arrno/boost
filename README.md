@@ -1,6 +1,6 @@
 # @boostd/boost
 
-![Tests](https://github.com/boostd/boost/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/arrno/boost/actions/workflows/tests.yml/badge.svg)
 
 `@boostd/boost` is a small placeholder CLI published ahead of the full Boost toolchain.
 
